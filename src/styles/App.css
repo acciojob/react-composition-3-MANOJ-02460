@@ -1,1 +1,20 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
 
+.tooltiptext {
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    width: max-content;
+    max-width: 220px;
+    padding: 6px 8px;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
